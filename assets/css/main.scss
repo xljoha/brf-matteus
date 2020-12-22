@@ -1,0 +1,105 @@
+---
+---
+/* modify Bootstrap variables here */
+
+@import 'bootstrap/bootstrap';
+
+/* add additional CSS rules below */
+
+h1, h2, h3, h4, h5  {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .portraite {
+        width: 100px;
+        img {
+            border-radius: 50%;
+            width: 100px;
+        }
+    }
+    .name {
+        font-weight: bold;
+    }
+}
+
+header {
+    background-color: #262424;
+    height: 200px;
+    @media (min-width: 576px) {
+        height: 105px;
+    }
+    .header {
+        .logo {
+            margin: auto;
+            width: 105px;
+            height: 80px;
+            background-image: url("../img/logo_chirch.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            @media (min-width: 576px) {
+                margin: 0;
+            }
+        }
+        .site-title {
+            font-size: 50px;
+            color: #F1F1F1;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+        }
+    }
+
+}
+
+nav {
+    height: 60px;
+    background-color: #D8D8D8;
+    font-size: 18px;
+    font-weight: light;
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            padding-right: 20px;
+        }
+    }
+    li {
+        a {
+            color:  #262424;
+            &:hover {
+                color: #BEAA90;
+                text-decoration: none;   
+            }
+        }
+        &.active {
+            a {
+                border-bottom: 1px solid #262424;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #262424;
+    color: #F1F1F1;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    a {
+        color: #D8D8D8;
+        &:hover {
+            color: #BEAA90;
+            text-decoration: none;   
+        }
+    }
+}

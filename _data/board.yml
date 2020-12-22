@@ -1,0 +1,24 @@
+- name: Kalle Svensson
+  img: img-person-placeholder.jpg
+  email: email@gmail.com
+  description: Ordförande
+- name: Lisa Karlsson
+  img: null
+  email: email@gmail.com
+  description: Vice Ordförande
+- name: Fredrik Ekelund
+  img: null
+  email: email@gmail.com
+  description: Suppleant
+- name: Dostojevski
+  img: null
+  email: email@gmail.com
+  description: Revisor
+- name: Knausgård
+  img: null
+  email: email@gmail.com
+  description: Suppleant
+- name: Emma Fredrica Eriksson
+  img: null
+  email: email@gmail.com
+  description: Suppleant

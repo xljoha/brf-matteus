@@ -1,0 +1,26 @@
+I"�<h1 id="styrelse">Styrelse</h1>
+<p>Bostadsrättsföreningens styrelse ska bestå av minst tre ledamöter. Styrelsen utses av föreningsstämman.</p>
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="portraite">
+            <img src="assets/img/board/img-person-placeholder.jpg" />
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="name">Namn 1</div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="portraite">
+            <img src="assets/img/board/img-person-placeholder.jpg " />
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="name">Namn 2</div>
+    </div>
+</div>
+
+:ET
