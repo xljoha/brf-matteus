@@ -24,7 +24,7 @@
                 <ul class="list-unstyled list-inline">
                     {% for item in site.data.navigation %}
                         <li class="list-inline-item {% if page.url == item.link %} active{% endif %}">
-                            <a href="{{ item.link }}">
+                            <a href="{{ item.link | relative_url}}">
                                 {{ item.name }}</a>
                         </li>
                     {% endfor %}
